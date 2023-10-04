@@ -1,0 +1,60 @@
+@import "./src/app/styles/variable.scss";
+
+.header {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: $color-575656;
+
+    /* Headline Medium */
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $color-blue;
+  }
+}
+.navigate {
+  display: flex;
+  gap: 30px;
+}
+.logo {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  display: inline-flex;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: $color-blue;
+  color: $color-white;
+
+  /* Button 1 Semibold */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.line {
+  width: 1px;
+  height: 30px;
+  background-color: $color-d7d7d7;
+}
